@@ -26,7 +26,15 @@ nav a{
     text-align: center;
     color: #F1F1E7;
     text-decoration: none;
+    font-family: Montserrat, Tahoma, sans-serif;
     padding: 35px;
+}
+
+nav {
+    background-color: #1A5974;
+}
+nav a:hover{
+    color:#F1F1E7;
 }
 
 .home-title{
@@ -60,12 +68,7 @@ header{
     background-color: #247BA0;
 }
 
-nav {
-    background-color: #1A5974;
-}
-nav a:hover{
-    color:#F1F1E7;
-}
+
 
 .book, .join{
     background-color:rgba(181,170,157, 0.85);
