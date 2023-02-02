@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Staatliches&display=swap');
+
+body{
+    background-color: #F1F1E7;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    margin: 0;
+}
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -5,20 +18,26 @@
 
 .logo{
     width: 80px;
+    padding-top: 5px;
 }
+
 
 nav a{
     text-align: center;
     color: #F1F1E7;
     text-decoration: none;
+    padding: 35px;
 }
 
-#hero-msg h1{
+.home-title{
     text-align: center;
+    font-family: Staatliches, Tahoma, sans-serif;
+    font-size: 2em;
 }
 
 #hero-msg h4{
     text-align: center;
+    font-family: Montserrat, Tahoma, sans-serif;
 }  
 
 .button-box{
@@ -29,13 +48,12 @@ main{
     text-align: center;
 }
 
-#background{
-    height: 725px;
+main section img{
+    box-sizing: border-box;
 }
 
-body{
-    background-color: #F1F1E7
-
+#background{
+    height: 725px;
 }
 
 header{
@@ -53,11 +71,17 @@ nav a:hover{
     background-color:rgba(181,170,157, 0.85);
     color: #F1F1E7;
     text-decoration: none;
+    font-family: Montserrat, Tahoma, sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover{
     background-color: #B5AA9D;
-    color: #674863
+    color: #674863;
+    font-family: Montserrat, Tahoma, sans-serif;
 }
 
 #background{
@@ -70,22 +94,53 @@ nav a:hover{
 
 .icon{
     width: 80px;
+    padding-top: 10px;
+}
+
+.home-title{
+    color:#247BA0;
+    margin-top: 10px;
+}
+
+h4{
+    color:#1A5974;
+}
+
+.home-grid, h2{
+    font-family: Staatliches, Tahoma, sans-serif;
+}
+
+.card-img{
+    border: 10px solid #1A5974;
+}
+
+.rivers-card, .camping-card, .rapids-card {  
+    margin: 200px 0;
 }
 
 .msg{
     background-color: #674863;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2{
-    color:#F1F1E7
+    color:#F1F1E7;
+    font-family: Montserrat, Tahoma, sans-serif;
+    margin: 0;
 }
 
 .msg p{
-    color:#F1F1E7
+    color:#F1F1E7;
+    font-family: Montserrat, Tahoma, sans-serif;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer{
+    font-family: Montserrat, Tahoma, sans-serif;
     background-color: #247BA0;
-    color:#F1F1E7
+    color:#F1F1E7;
+    padding: 25px 50px;
 }
 footer a{
     color:#F1F1E7;
@@ -103,10 +158,7 @@ footer p a:hover{
     text-decoration: underline;
 }
 
-.home-title{
-    color:#247BA0
+footer .social img {
+    padding-top: 35px;
 }
 
-h4{
-    color:#1A5974
-}
