@@ -388,6 +388,30 @@ footer{
 /*   CONTACT US PAGE */
 /* --------------------- */
 
+/* Image and Top Header */
+#contact-us {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+    grid-gap: 9px;
+}
+    #contact-us-box {
+        grid-column: 1/4;
+        grid-row: 1/3;
+        z-index: -1;
+    }
+
+    #contact-us-msg {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        margin-top: 100px;
+        color: #F1F1E7;
+    }
+
+    #contact-us-img {
+        width: 100%
+    }
+
 /*   Form Content  */
 form {
     /* Center the form on the page */
