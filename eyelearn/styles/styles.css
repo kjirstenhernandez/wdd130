@@ -232,6 +232,7 @@ footer {  /*-----> General Display Properties */
     justify-content: space-evenly;
     align-items: center;
     padding: 10px 5%;
+    text-decoration: none;
 }
     .copyright {  /*-----> "Copyright eyeLearn" */
         grid-column: 1/2;
@@ -246,7 +247,6 @@ footer {  /*-----> General Display Properties */
         text-align: center;
     }
     .find-doctor p a{  /*-----> "Find a Doctor" */
-        
         text-decoration: none;
         color: #ffb703;
         padding-left: 10px;
