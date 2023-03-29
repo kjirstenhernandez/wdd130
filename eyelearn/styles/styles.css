@@ -574,15 +574,17 @@ header {
     margin: 2em 8em;
     border-radius: 20pt;
 }
-        .bonus-info li{
-            margin-left: 3em;
+        .sign-list{
+            line-height: 1.5em;
+            margin-left: 2em;
+            margin-top: -1em;
         }
 
         .bonus-subheader{
             font-family: Merriweather, Georgia, serif;
             font-weight: 800;
             color: white;
-            font-size: 1.20em;
+            font-size: 1.30em;
         }
 
     
