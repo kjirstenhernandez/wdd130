@@ -206,7 +206,7 @@ header {
                     }
 
 /* -------------------------------------------------------------------------------------------------
-                              ----->    VISION-LEARNING PAGE CONTENT    <-----           
+                              ----->    EYE-SAFETY PAGE CONTENT    <-----           
    ------------------------------------------------------------------------------------------------- */
 
 
@@ -452,6 +452,35 @@ header {
                     padding: 5pt;
                     border-radius: 5pt;
                 }
+
+/* -------------------------------------------------------------------------------------------------
+                              ----->    VISION LEARNING PAGE CONTENT    <-----           
+   ------------------------------------------------------------------------------------------------- */
+
+    /* Banner Image and Text  */
+            .vision-learning-banner{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+                margin-top: -100px;
+                text-align: center;
+            }
+            
+            #crayon-img, .vision-banner-text{
+             /* ------> creating the overlap*/
+                grid-row: 1/2;
+                grid-column: 1/6;
+            }
+        
+
+            #crayon-img{
+                width: 100%;
+        
+            }
+
+            .vision-banner-text {
+                background-color: #94d0e0;
+                
+            }
 
 
 
