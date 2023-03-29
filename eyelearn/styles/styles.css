@@ -457,32 +457,146 @@ header {
                               ----->    VISION LEARNING PAGE CONTENT    <-----           
    ------------------------------------------------------------------------------------------------- */
 
-    /* Banner Image and Text  */
-            .vision-learning-banner{
-                display: grid;
-                grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-                margin-top: -100px;
-                text-align: center;
-            }
-            
-            #crayon-img, .vision-banner-text{
-             /* ------> creating the overlap*/
-                grid-row: 1/2;
-                grid-column: 1/6;
-            }
+   /* Banner Message */
+   
+   .vision-learning-banner{
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr;
+    grid-template-rows: repeat(7, 90px);
+    margin-top: -100px;
+}
+
+    /* Banner Image */
+
+        #vision-banner-img{     /*  setting up the image as a banner */
+            grid-column: 1/4;
+            grid-row: 1/3;
+            z-index: -1;
+            margin-top: 100px;   
+        }
+
+        #crayon-img{  /* -----> specific image attributes*/
+            width: 100%; 
+        }
+
+    /* Banner Message */
+
+        .vision-banner-text{  /* -----> Banner General Text Attributes*/
+            grid-column: 3/4;
+            color: #023047;
+            padding: 10px;
+            text-align: center;
+
+        }
+
+        #vision-title{  /*----> Banner Header */
+            font-family: Merriweather, Georgia, serif;
+            font-weight: 800;
+            font-size: 1.75em;
+            text-align: center;
+            background-color: #fb8601d2;
+            grid-row: 2/4;
+            border-radius: 20px;
+            padding: 10px
+        }
+
+        #vision-text{  /*----> Banner Paragraph */
+            font-family: "Montserrat", Helvetica, sans-serif;
+            font-size: 1.25em;
+            background-color: #fb8601d2;
+            grid-row: 4/7;
+            border-radius: 20px;
+            padding: 5%;
+        }
+
+/* Intro Paragraph */
+
+.vision-intro {
+    background-color: #80c5d6;
+    color: #023047;
+    margin: 200px 50px;
+    padding: 10pt 20pt;
+    border-radius: 20px;
+    font-family: "Montserrat", Helvetica, sans-serif;
+}
+
+/* Grid Items -- Photos and Descriptions */
+
+.vision-grid { /*----> Set up Grid */
+    display: grid;
+    grid-template-columns: 10px 2fr 3fr 10px;
+    grid-gap: 20px;
+}
+
+    .vision-card{ /*----> Image Cards (general) */
+        display: inline;
+        grid-column: 2/3;
+        align-items: center;
+        margin: auto
+        }
         
 
-            #crayon-img{
-                width: 100%;
+    .vision-card img{ /*----> Image Cards (individual specs) */
+        width: 80%;
+        border-radius: 2em;
+        justify-content: center;
         
-            }
+    }
 
-            .vision-banner-text {
-                background-color: #94d0e0;
-                
-            }
+    .vision-info{ /*----> Each Info Paragraph and Header*/
+        grid-column: 3/4;
+        padding: 30px;
+    }
 
+        .vision-subheader {  /*-------> Headers */
+            font-family: Merriweather, Georgia, serif;
+            font-weight: 800;
+            color: #023047;
+            font-size: 1.20em;
+        }
 
+        .vision-pg {  /*-------> Paragraphs */
+            font-family: "Montserrat", Helvetica, sans-serif;
+            color: #023047;
+            font-size: .80em;
+        }
+    
+
+/* Signs and Symptoms Bomus Info  */
+
+.bonus-info{
+    grid-column: 1/5;
+    padding: 3em;
+    background-color: #fb8501;
+    font-family: "Montserrat", Helvetica, sans-serif;
+    color: white;
+    font-size: .80em;
+    margin: 2em 8em;
+    border-radius: 20pt;
+}
+        .bonus-info li{
+            margin-left: 3em;
+        }
+
+        .bonus-subheader{
+            font-family: Merriweather, Georgia, serif;
+            font-weight: 800;
+            color: white;
+            font-size: 1.20em;
+        }
+
+    
+/* Mini Message at bottom */
+
+    #kid-exam, .mini-message{  /* ------> creating the overlap*/
+        grid-row: 1/2;
+    }
+
+    #kid-exam{ /* -------> image */
+        grid-column: 2/7;
+        border-radius: 20pt;
+        width: 90%;
+    }
 
 /* ----------------------------------------------------------- */
 /*                       FOOTER AND LINKS                      */
