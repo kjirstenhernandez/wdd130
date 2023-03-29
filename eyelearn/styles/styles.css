@@ -144,6 +144,7 @@ header {
         text-align: center;
         padding: 2%;
         margin-bottom: 50px;
+        border-radius: 1em;
     }
 
     .card-img { /*----> Card Images/Info in General */
@@ -271,7 +272,7 @@ header {
     .injury-intro {
         background-color: #80c5d6;
         color: #023047;
-        margin: 100px 50px;
+        margin: 2em 9em 5em;
         padding: 10pt 20pt;
         border-radius: 20px;
         font-family: "Montserrat", Helvetica, sans-serif;
@@ -514,7 +515,7 @@ header {
 .vision-intro {
     background-color: #80c5d6;
     color: #023047;
-    margin: 200px 50px;
+    margin: 2em 9em 5em;
     padding: 10pt 20pt;
     border-radius: 20px;
     font-family: "Montserrat", Helvetica, sans-serif;
